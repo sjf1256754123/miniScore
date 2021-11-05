@@ -1,0 +1,58 @@
+<view class="gq_main">
+<view class="header_title1">研究开发组织管理水平</view>
+ <form catchsubmit="formSubmit">
+<view class="title">与国内外研究开发机构开展多种形式产学研合作证明材料:  </view>
+      <view class='list-msg2' bindtap='bindShowMsg1'>
+        <text class="list_name">{{yjzzkf1}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/xl.png'></image>
+    </view>
+    <view class="select_box" wx:if="{{select1}}">
+        <view class="select_one" bindtap="mySelect1" data-value="0.5" data-name="仅有产学研协议">仅有产学研协议</view>
+        <view class="select_one" bindtap="mySelect1" data-value="0.5"  data-name="产学研协议+一项证明（资金往来凭证、共同专利、论文、政府合同等）">产学研协议+一项证明（资金往来凭证、共同专利、论文、政府合同等）</view>
+        <view class="select_one" bindtap="mySelect1" data-value="0.5"  data-name="提供协议+两项以上证明（资金往来凭证、共同专利、共同论文、政府合同等）">提供协议+两项以上证明（资金往来凭证、共同专利、共同论文、政府合同等）</view>
+        <view class="select_one" bindtap="mySelect1" data-value="0.5"  data-name="没有证明材料">没有证明材料</view>
+    </view>
+
+<view class="title">科技成果转化的组织实施与激励奖励制度实施情况:  </view>
+      <view class='list-msg2' bindtap='bindShowMsg2'>
+        <text class="list_name">{{yjzzkf2}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/xl.png'></image>
+    </view>
+    <view class="select_box2" wx:if="{{select2}}">
+        <view class="select_one" bindtap="mySelect2" data-value="1" data-name="仅有制度文件">仅有制度文件</view>
+        <view class="select_one" bindtap="mySelect2" data-value="2" data-name='仅有制度文件"制度文件+应用证明（奖励单、奖励公布文件）'>制度文件+应用证明（奖励单、奖励公布文件）</view>
+        <view class="select_one" bindtap="mySelect2" data-value="0" data-name="无">无</view>
+    </view>
+
+<view class="title"> 开放式的创新创业平台建设情况:</view>
+      <view class='list-msg2' bindtap='bindShowMsg3'>
+        <text class="list_name">{{yjzzkf3}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/xl.png'></image>
+    </view>
+    <view class="select_box3" wx:if="{{select3}}">
+        <view class="select_one" bindtap="mySelect3" data-value="1" data-name="有平台建立文件">有平台建立文件</view>
+        <view class="select_one" bindtap="mySelect3" data-value="2" data-name='有平台建立文件+证明材料有众创空间或孵化器备案文件  +相关证明材料'>有平台建立文件+证明材料有众创空间或孵化器备案文件  +相关证明材料</view>
+        <view class="select_one" bindtap="mySelect3" data-value="0" data-name="无">无</view>
+    </view>
+
+<view class="title"> 科技人员的培养进修、职工技能培训、优秀人才引进，以及人才绩效评价奖励制度制定情况:</view>
+      <view class='list-msg2' bindtap='bindShowMsg4'>
+        <text class="list_name">{{yjzzkf4}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/xl.png'></image>
+    </view>
+    <view class="select_box4" wx:if="{{select4}}">
+        <view class="select_one" bindtap="mySelect4" data-value="4" data-name="4项制度文件和应用证明">4项制度文件和应用证明</view>
+        <view class="select_one" bindtap="mySelect4" data-value="3" data-name='3项制度文件和应用证明'>3项制度文件和应用证明</view>
+        <view class="select_one" bindtap="mySelect4" data-value="2" data-name='2项制度文件和应用证明'>2项制度文件和应用证明</view>
+        <view class="select_one" bindtap="mySelect4" data-value="1" data-name='1项制度文件和应用证明'>1项制度文件和应用证明</view>
+        <view class="select_one" bindtap="mySelect4" data-value="0" data-name="无">无</view>
+    </view>
+
+
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

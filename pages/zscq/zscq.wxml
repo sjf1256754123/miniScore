@@ -1,0 +1,21 @@
+<view class="gq_main">
+<view class="header_title1">知识产权水平评估</view>
+ <form catchsubmit="formSubmit">
+<view class="title">技术先进程度</view>
+<view class="sm" style="margin-top:30rpx;">* Ⅰ类知识产权：发明专利（含国防专利）、植物新品种、国家级农作物品种、国家新药、国家一级中药保护品种、集成电路布图设计专有权等。 </view>
+<view class="sm">* Ⅱ类知识产权：实用新型专利、外观设计专利、软件著作权等（不含商标） </view>
+  <radio-group bindchange="radioChange"  name="jsxjx">
+    <view wx:for="{{jsxjxitems}}" wx:key="index" class="jsxjx">
+            <view class="jsxjx_z">
+              <radio value="{{item.value}}" checked="{{item.checked}}"/> {{item.name}}
+            </view>
+            <view class="jsxjx_sm">{{item.msg}}</view>
+    </view>
+  </radio-group>
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

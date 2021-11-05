@@ -1,0 +1,33 @@
+<view class="gq_main">
+<view class="header_title1">知识产权水平评估</view>
+ <form catchsubmit="formSubmit">
+
+<view class="jsxjx_sm">* 说明：如企业无自主研发Ⅰ类/Ⅱ类知识产权，请填写0；Ⅱ类知识产权在高企申报中只能使用1次，若该专利在之前高企认定中已使用过，则为无效专利，建议企业Ⅱ类知识产权最好为3年以内的。</view>
+<view class="zscq1">Ⅰ类知识产权</view>
+<view class="zscq11">
+  <view>自主研发</view>
+  <view><input type="number" name='zzyf1'></input> 件</view>
+</view>
+<view class="zscq11">
+  <view>转让、受让、并购</view>
+  <view><input type="number" name='zhuanrang1'></input> 件</view>
+</view>
+<view class="zscq1">Ⅱ类知识产权</view>
+<view class="zscq11">
+  <view>自主研发</view>
+  <view><input type="number" name='zzyf2'></input> 件</view>
+   <view>仅限第一次使用</view>
+</view>
+<view class="zscq11">
+  <view>转让、受让、并购</view>
+  <view><input type="number" name='zhuanrang2'></input> 件</view>
+  <view>仅限第一次使用</view>
+</view>
+
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

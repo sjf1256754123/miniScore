@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/gaoqi/gaoqi",
+    "pages/index/index",
+    "pages/qyxx/qyxx",
+    "pages/zscq/zscq",
+    "pages/zscq1/zscq1",
+    "pages/zscq2/zscq2",
+    "pages/zscq3/zscq3",
+    "pages/jbtj/jbtj",
+    "pages/yjzzkfgl/yjzzkfgl",
+    "pages/yjzzkfgl1/yjzzkfgl1",
+    "pages/yjzzkfgl2/yjzzkfgl2",
+    "pages/kjcgzhnl/kjcgzhnl",
+    "pages/qyczx/qyczx",
+    "pages/detail/detail",
+    "pages/wode/wode",
+    "pages/zplist/zplist",
+    "pages/navbar/navbar"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新站高新区高企自评系统",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+        {
+          "pagePath": "pages/gaoqi/gaoqi",
+          "selectedIconPath": "/images/index_1.png",
+          "iconPath": "/images/index.png",
+          "text": "自评"
+        }, {
+          "pagePath": "pages/wode/wode",
+          "selectedIconPath": "/images/wo_1.png",
+          "iconPath": "/images/wo.png",
+          "text": "我的"
+        }
+      ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

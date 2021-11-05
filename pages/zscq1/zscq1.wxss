@@ -1,0 +1,74 @@
+
+.gq_main{
+  width: 90%;
+  height: 100%;
+  margin: 0 5%;
+  padding-bottom:100rpx;
+}
+.header_title1{
+  text-align: center;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+}
+.title{
+text-align: center;
+  font-size: 26rpx;
+  padding-top: 20rpx;
+  line-height: 40rpx;
+  border-bottom: 1rpx solid #666;
+}
+.jsxjx{
+  /* float: left; */
+  line-height: 60rpx;
+  width: 100%;
+  margin: 20rpx 20rpx;
+}
+.jsxjx1{
+  float: left;
+  line-height: 60rpx;
+  width: 33%;
+}
+.jsxjx_z{
+font-size: 26rpx;
+}
+.jsxjx_sm{
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #333;
+  padding: 20rpx 20rpx;
+  margin: 20rpx 20rpx 20rpx 0;
+  background: rgba(31, 194, 66, 0.4);
+}
+.zscq1{
+  line-height: 50rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.zscq11{
+  display: flex;
+}
+.zscq11 view{
+  line-height: 60rpx;
+  font-size: 24rpx;
+  text-align: center;
+  flex: 1;
+}
+.zscq11 view input{
+  width: 150rpx;
+  text-align: left;
+  padding-left: 12rpx;
+  border: solid 1rpx #999;
+  border-radius: 12rpx;
+  display: inline-table;
+}
+.btn{
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn .header_btn{
+  flex: 1;
+  margin: 20rpx;
+
+}

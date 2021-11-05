@@ -1,0 +1,55 @@
+<view class="gq_main">
+<view class="header_title1">企业成长性评价</view>
+  <form catchsubmit="formSubmit">
+<view class="zscq11">
+  <view class="leftqy">年份</view>
+  <view class="rightqy">销售收入（万元）</view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-3}}</view>
+  <view class="rightqy"><input type="digit" name='xs1' bindinput="xs1" bindblur="xs1"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-2}}</view>
+  <view class="rightqy"><input type="digit" name='xs2' bindinput="xs2" bindblur="xs2"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-1}}</view>
+  <view class="rightqy"><input type="digit" name='xs3' bindinput="xs3" bindblur="xs3"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">增长率</view>
+  <view class="rightqy"><input type="digit" name='xszzl' disabled="true" value="{{xszzl}}"></input></view>
+</view>
+
+<view class="zscq11">
+  <view class="leftqy">年份</view>
+  <view class="rightqy">净资产（万元）</view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-3}}</view>
+  <view class="rightqy"><input type="digit" name='jzc1' bindinput="jzc1" bindblur="jzc1"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-2}}</view>
+  <view class="rightqy"><input type="digit" name='jzc2' bindinput="jzc2" bindblur="jzc2"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">{{date1-1}}</view>
+  <view class="rightqy"><input type="digit" name='jzc3' bindinput="jzc3" bindblur="jzc3"></input></view>
+</view>
+<view class="zscq11">
+  <view class="leftqy">增长率</view>
+  <view class="rightqy"><input type="digit" name='jzczzl' disabled="true" value="{{jzczzl}}"></input></view>
+</view>
+<view  class="sm" style="white-space:pre-wrap"> * 指标计算所依据数据请根据企业实际情况填报数据，与税务系统数字保持一致；
+* 成立2年的填写后2年数据，前一年填写0；成立一年的企业填写最后一年数据，前两年填写0；
+* 如果拟申请企业成立只有一年，则该成长性一项分数为0。
+*如果拟申请企业第二年数据为0或者负值，则该成长性一项分数为0。</view >
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+  </form>
+ </view>
+ <tabbar activeIdx="{{activeIdx}}"></tabbar>

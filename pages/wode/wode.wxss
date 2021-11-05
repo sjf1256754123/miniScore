@@ -1,0 +1,58 @@
+.avatar-wrapper {
+  background: #eee;
+  padding: 25px 0;
+}
+
+.avatar-wrapper .avatar {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar-wrapper .avatar image {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-wrapper .text {
+  text-align: center;
+  color: #000;
+}
+
+.listimg image {
+  margin-right: 5px;
+  padding-left: 10rpx;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  display: flex;
+  margin-top: 10px;
+
+  margin-bottom: 10px;
+}
+
+.listtext {
+  flex: 1;
+  font-size: 28rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*分割线样式*/
+.divLine {
+  background: #E0E3DA;
+  width: 100%;
+  height: 2rpx;
+}
+
+.arrows image {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  padding-right: 40rpx;
+
+}

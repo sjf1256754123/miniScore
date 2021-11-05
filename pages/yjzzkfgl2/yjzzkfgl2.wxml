@@ -1,0 +1,21 @@
+<view class="gq_main">
+<view class="header_title1">研究开发组织管理水平</view>
+ <form catchsubmit="formSubmit">
+<view class="title">
+<view class="jsxjx_sm">内部科学技术研究具备科研条件证明材料（多选）</view>
+</view>
+  <checkbox-group bindchange="checkboxChange"  name="nbkxjsyj">
+    <view wx:for="{{items}}" wx:key="index" class="jsxjx">
+            <view class="jsxjx_z">
+              <checkbox value="{{item.value}}" checked="{{item.checked}}"/> {{item.name}}
+            </view>
+    </view>
+  </checkbox-group>
+
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

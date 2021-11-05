@@ -1,0 +1,23 @@
+<view class="gq_main">
+<view class="header_title1">研究开发组织管理水平</view>
+ <form catchsubmit="formSubmit">
+<view class="title">
+<view class="jsxjx_sm">
+1.企业是否制定了企业研究开发的组织管理制度，建立了研发投入核算体系，编制了研发费用辅助账（多选）
+ </view>
+ </view>
+  <checkbox-group   name="cyyjzzkfgl">
+    <view wx:for="{{items}}" wx:key="index" class="jsxjx">
+            <view class="jsxjx_z">
+              <checkbox value="{{item.value}}" checked="{{item.checked}}"/> {{item.name}}
+            </view>
+    </view>
+  </checkbox-group>
+
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

@@ -1,0 +1,87 @@
+/* pages/detail/detail.wxss */
+.gq_main{
+  width: 90%;
+  height: 100%;
+  margin: 0 5%;
+ padding-bottom:100rpx;
+}
+.title{
+  font-size: 34rpx;
+  font-weight: 700;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+  text-align: center;
+}
+.fbiaoti{
+  font-size: 26rpx;
+  line-height: 50rpx;
+  text-align: left;
+  text-indent: 2ch;
+  margin:20rpx 0;
+}
+.cp_main{
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  padding:20rpx 0;
+  background: rgba(80, 93, 88, 0.4);
+  box-shadow: 0rpx 0rpx 30rpx rgba(7, 193, 96, 0.4);
+}
+.defen{
+  line-height: 100rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 30rpx;
+  background: rgba(50, 150, 250, 1);
+  width: 80%;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 6rpx 6rpx 30rpx rgba(7, 193, 96, 0.4);
+}
+.fenshu{
+  line-height: 100rpx;
+  font-size: 40rpx;
+  /* font-weight: 700; */
+  color: #fff;
+  background: rgba(7, 193, 96, 1);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  box-shadow: 6rpx 6rpx 30rpx rgba(7, 193, 96, 0.4);
+}
+.phsj{
+  line-height: 60rpx;
+  font-size: 20rpx;
+  /* font-weight: 700; */
+  color: #fff;
+}
+.cpxq{
+  font-size: 32rpx;
+  text-align: left;
+  line-height: 80rpx;
+  padding-left: 60rpx;
+  background: rgba(202, 203, 193, .4);
+  box-shadow: 6rpx 6rpx rgba(80, 93, 88, 0.4);
+  margin:20rpx 0;
+  color: #000;
+}
+.background {
+  /* width: 100%;
+  height: 100%; */
+  position:fixed; 
+  top: 230rpx;
+  left: 5%;
+  background-size:50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.b_sm{
+  font-size: 26rpx;
+  line-height: 50rpx;
+  text-align: left;
+  text-indent: 2ch;
+}
+.header_btn{
+  margin: 40rpx 0;
+}

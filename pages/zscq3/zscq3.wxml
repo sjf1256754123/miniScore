@@ -1,0 +1,18 @@
+<view class="gq_main">
+<view class="header_title1">知识产权水平评估</view>
+ <form catchsubmit="formSubmit">
+<view class="jsxjx_sm">* 额外加分项，企业参与编制国家标准、行业标准、检测方法、技术规范的情况（相关标准、方法和规范须经国家有关部门认证认可。） </view>
+  <radio-group bindchange="radioChange"  name="cygjbz">
+    <view wx:for="{{cygjbztems}}" wx:key="index" class="jsxjx">
+            <view class="jsxjx_z">
+              <radio value="{{item.value}}" checked="{{item.checked}}"/> {{item.name}}
+            </view>
+    </view>
+  </radio-group>
+<view class="btn">
+<button type="primary" class="header_btn" bindtap="PrevTamp">上一步</button>
+<button type="primary" class="header_btn" form-type='submit'>下一步</button>
+</view>
+</form>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

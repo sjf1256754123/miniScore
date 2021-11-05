@@ -1,0 +1,25 @@
+<view class="gq_main">
+<view class="title">高新技术企业自评结果</view>
+<view class="fbiaoti">高新技术企业评价应达到相应要求（企业知识产权、科技成果转化能力、研究开发组织管理水平、财务成长，指标总分100分，须达到 70分 以上）</view>
+<!-- <image class='background' src="../../images/jg_bg.jpg" mode="aspectFill"></image> -->
+<view class="cp_main">
+<view class="defen">得分</view>
+<view class="fenshu">{{zf}}分</view>
+<view  class="phsj">{{cptime}} </view>
+</view>
+<view class="cpxq">知识产权得分：{{zscq}}分 	</view>
+<view class="cpxq">科技成果转化能力：{{kjcgzhnl}}分</view>
+<view class="cpxq">研究开发组织管理水平：{{yjkfnl}}分 </view>
+<view class="cpxq">企业成长性：{{qyczx}}分</view>
+<view class="b_sm">
+具体测评结果，仅供企业参考，如对测试结果有疑问，可直接与平台客服联系！
+</view>
+<view class="b_sm">
+* 若您需要高企认定过程中的具体专业指导建议，欢迎联系平台，我们将为您提供更详细的咨询服务！
+</view>
+<view class="b_sm" style="font-size:30rpx;color:red">
+电话：0551-65532720转605
+</view>
+<button type="primary" class="header_btn" bindtap="NextTamp">重新测评</button>
+</view>
+<tabbar activeIdx="{{activeIdx}}"></tabbar>

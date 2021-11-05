@@ -1,0 +1,142 @@
+.gq_main{
+  width: 90%;
+  height: 100%;
+  margin: 0 5%;
+  padding-bottom:100rpx;
+}
+.header_title1{
+  text-align: center;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+}
+.title{
+text-align: center;
+  font-size: 26rpx;
+  padding-top: 20rpx;
+  line-height: 40rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #666;
+}
+.jsxjx{
+  /* float: left; */
+  line-height: 60rpx;
+  width: 100%;
+  margin: 20rpx 20rpx;
+}
+.jsxjx1{
+  float: left;
+  line-height: 60rpx;
+  width: 33%;
+}
+.jsxjx_z{
+font-size: 26rpx;
+}
+.jsxjx_sm{
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #333;
+  padding: 20rpx 20rpx;
+  margin: 20rpx 0 20rpx 0;
+  background: rgba(31, 194, 66, 0.4);
+}
+.btn{
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn .header_btn{
+  flex: 1;
+  margin: 20rpx;
+
+}
+.list-msg2 {
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  padding: 0 10rpx;
+  margin: 20rpx auto;
+  overflow: hidden;
+}
+.list_name{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 22rpx;
+  overflow: hidden;
+}
+
+.select_box {
+  background-color: #999;
+  color: #fff;
+  padding: 0 10rpx;
+  width: 84%;
+  position: absolute;
+  top:250rpx;
+  left: 50rpx;
+  border-radius: 10rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+.select_box2 {
+  background-color: #999;
+  color: #fff;
+  padding: 0 10rpx;
+  width: 84%;
+  position: absolute;
+  top:460rpx;
+  left: 50rpx;
+  border-radius: 10rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+.select_box3{
+  background-color: #999;
+  color: #fff;
+  padding: 0 10rpx;
+  width: 84%;
+  position: absolute;
+  top:660rpx;
+  left: 50rpx;
+  border-radius: 10rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+  
+}
+.select_box4{
+  background-color: #999;
+  color: #fff;
+  padding: 0 10rpx;
+  width:84%;
+  position: absolute;
+  top:900rpx;
+  left: 50rpx;
+  border-radius: 10rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+@keyframes myfirst {
+  from {
+      height: 0rpx;
+  }
+
+  to {
+      height: 210rpx;
+  }
+}
+
+.select_one {
+  line-height: 60rpx;
+  overflow: hidden;
+  font-size: 26rpx;
+  border-bottom: 1px solid #ccc;
+}
